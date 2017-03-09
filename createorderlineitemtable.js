@@ -8,4 +8,4 @@ const errorHandler = (err) => {
   };
 };
 
-db.run("CREATE TABLE IF NOT EXISTS _ (_)", errorHandler)
+db.run("CREATE TABLE IF NOT EXISTS OrderLineItem (OrderLineItemId INT, OrderId INT, ProductId INT, Quantity INT)", errorHandler)
