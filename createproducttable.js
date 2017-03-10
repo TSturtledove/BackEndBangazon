@@ -8,4 +8,4 @@ const errorHandler = (err) => {
   };
 };
 
-db.run("CREATE TABLE IF NOT EXISTS Product (ProductId INT, Name TEXT)", errorHandler)
+db.run("CREATE TABLE IF NOT EXISTS Product ( ProductId INTEGER NOT NULL PRIMARY KEY, Name TEXT NOT NUll)", errorHandler)

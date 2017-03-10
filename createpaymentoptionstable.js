@@ -8,4 +8,4 @@ const errorHandler = (err) => {
   };
 };
 
-db.run("CREATE TABLE IF NOT EXISTS PaymentOption (PaymentOptionId INT, AccountNumber INT)", errorHandler)
+db.run("CREATE TABLE IF NOT EXISTS PaymentOption ( PaymentOptionId INTEGER NOT NULL AUTOINCREMENT PRIMARY KEY, AccountNumber TEXT)", errorHandler)

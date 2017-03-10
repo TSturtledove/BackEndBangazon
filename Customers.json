@@ -1,0 +1,22 @@
+{
+  "customers":[
+    {"CustomerId": "1", "FirstName": "Tom", "LastName": "Franklin", "Address": "422 Old Oak Road", "City": "RockPort", "State": "Montana", "PostalCode": "42350", "Phone": "234-532-6357"},
+    {"CustomerId": "2", "FirstName": "Louie", "LastName": "Yokanda", "Address": "87 Plesant Lane", "City": "Droplet", "State": "New York", "PostalCode": "49050", "Phone": "345-642-8457"},
+    {"CustomerId": "3", "FirstName": "Bob", "LastName": "Thomas", "Address": "3458 Broken Arrow Ave", "City": "Basestart", "State": "Wyoming", "PostalCode": "47865", "Phone": "324-612-5134"},
+    {"CustomerId": "4", "FirstName": "Steve", "LastName": "Evermore", "Address": "213 King Road", "City": "Illsut", "State": "Geogia", "PostalCode": "87362", "Phone": "975-734-8353"},
+    {"CustomerId": "5", "FirstName": "Vance", "LastName": "Smith", "Address": "365 Wolf Road", "City": "Paris", "State": "Tennessee", "PostalCode": "75342", "Phone": "724-243-0897"},
+    {"CustomerId": "6", "FirstName": "Helga", "LastName": "Grounce", "Address": "6542 BirdDog Ave", "City": "Brush Valley", "State": "Alaska", "PostalCode": "43653", "Phone": "123-321-8356"},
+    {"CustomerId": "7", "FirstName": "Wilson", "LastName": "Lowen", "Address": "685 Red Rock Road", "City": "West Yellowstone", "State": "Wyoming", "PostalCode": "25436", "Phone": "778-463-9404"},
+    {"CustomerId": "8", "FirstName": "Cameron", "LastName": "Reindower", "Address": "532 Rain Lane", "City": "Frost Peak", "State": "Montana", "PostalCode": "32453", "Phone": "889-746-5345"},
+    {"CustomerId": "9", "FirstName": "Jane", "LastName": "Barkley", "Address": "645 Rabbit Track", "City": "Santa Fe", "State": "New Mexico", "PostalCode": "74653", "Phone": "957-745-8357"},
+    {"CustomerId": "10", "FirstName": "Joe", "LastName": "Killroy", "Address": "22 Ribbon Lane", "City": "Campbell", "State": "Kentucky", "PostalCode": "53342", "Phone": "134-423-7839"},
+    {"CustomerId": "11", "FirstName": "Darile", "LastName": "Hereford", "Address": "554 Trundle Road", "City": "Troll", "State": "Maine", "PostalCode": "23243", "Phone": "222-755-8474"},
+    {"CustomerId": "12", "FirstName": "Jessica", "LastName": "Tilman", "Address": "7631 Townsend Lane", "City": "Valoran", "State": "Zendikar", "PostalCode": "24131", "Phone": "332-321-6533"},
+    {"CustomerId": "13", "FirstName": "Zoey", "LastName": "Ulna", "Address": "6434 Guilty Spark Ave", "City": "New Mombasa", "State": "Kenya", "PostalCode": "54763", "Phone": "211-635-8589"},
+    {"CustomerId": "14", "FirstName": "Peter", "LastName": "Quency", "Address": "7 Tripple Drive", "City": "Enterprise", "State": "Voyager", "PostalCode": "75435", "Phone": "789-323-6465"},
+    {"CustomerId": "15", "FirstName": "Clancy", "LastName": "Black", "Address": "897 Mardu Road", "City": "BloodFell Caves", "State": "Tarkir", "PostalCode": "65435", "Phone": "999-876-1429"},
+    {"CustomerId": "16", "FirstName": "Poe", "LastName": "Asher", "Address": "8765 Izzet Lane", "City": "Gruul", "State": "Ravnica", "PostalCode": "72649", "Phone": "908-376-0293"},
+    {"CustomerId": "17", "FirstName": "Vi", "LastName": "Faust", "Address": "243 Grand Street", "City": "Lockdown", "State": "Piltover", "PostalCode": "89865", "Phone": "625-342-8576"},
+    {"CustomerId": "18", "FirstName": "Jinx", "LastName": "Luna", "Address": "645 Grey Street", "City": "Chemtown", "State": "Zaun", "PostalCode": "43252", "Phone": "305-987-8465"}
+  ]
+}
