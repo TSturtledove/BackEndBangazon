@@ -8,4 +8,4 @@ const errorHandler = (err) => {
   };
 };
 
-db.run("CREATE TABLE IF NOT EXISTS OrderLineItem (OrderLineItemId INTEGER NOT NULL AUTOINCREMENT PRIMARY KEY, OrderId INT, ProductId INT, Quantity INT, FOREIGN KEY(OrderId) REFERENCES Order(OrderId))", errorHandler)
+db.run("CREATE TABLE IF NOT EXISTS OrderLineItem (OrderLineItemId INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, OrderId INT, ProductId INT, Quantity INT, FOREIGN KEY(OrderId) REFERENCES OrderInfo(OrderId))", errorHandler)

@@ -10,10 +10,10 @@ const errorHandler = (err) => {
 };
 
 const populateOrders = () => {
-  const {order} = require("./Order.json");
+  const {orderinfo} = require("./Order.json");
 
-  order.forEach(e => {
-    db.run(`INSERT INTO Order VALUES(
+  orderinfo.forEach(e => {
+    db.run(`INSERT INTO OrderInfo VALUES(
       ${e.OrderId},
       ${e.CustomerId},
       ${e.PaymentOptionId},
@@ -21,9 +21,9 @@ const populateOrders = () => {
     )`, errorHandler)
   });
 };
-// populateOders();
+// populateOrders();
 
-db.all(`SELECT * FROM Order`, (err, info) => {
+db.all(`SELECT * FROM OrderInfo`, (err, info) => {
   const result = info.map(e => `Order number ${e.OrderId} made by ${e.CustomerId}`);
 
   console.log(result);

@@ -20,7 +20,8 @@ const populateCustomers = () => {
       "${e.Address}",
       "${e.City}",
       "${e.State}",
-      ${e.PostalCode}
+      "${e.PostalCode}",
+      "${e.Phone}"
     )`, errorHandler)
   });
 };

@@ -19,4 +19,4 @@ const populatePaymentOptions = () => {
     )`, errorHandler)
   });
 };
-// populateCustomers();
+// populatePaymentOptions();

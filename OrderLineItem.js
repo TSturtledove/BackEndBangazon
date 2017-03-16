@@ -21,7 +21,7 @@ const populateOrderLineItem = () => {
     )`, errorHandler)
   });
 };
-// populateOderLineItem();
+// populateOrderLineItem();
 
 db.all(`SELECT * FROM OrderLineItem`, (err, info) => {
   const result = info.map(e => `${e.OrderLineItemId} on ${e.OrderId}`);

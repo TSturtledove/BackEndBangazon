@@ -1,5 +1,5 @@
 {
-  "order":[
+  "orderinfo":[
     {"OrderId": "1", "CustomerId": "4", "PaymentOptionId": "2", "Paid": "Yes"},
     {"OrderId": "2", "CustomerId": "5", "PaymentOptionId": "2", "Paid": "Yes"},
     {"OrderId": "3", "CustomerId": "10", "PaymentOptionId": "2", "Paid": "Yes"},
@@ -19,7 +19,7 @@
     {"OrderId": "17", "CustomerId": "3", "PaymentOptionId": "2", "Paid": "Yes"},
     {"OrderId": "18", "CustomerId": "9", "PaymentOptionId": "3", "Paid": "Yes"},
     {"OrderId": "19", "CustomerId": "8", "PaymentOptionId": "2", "Paid": "Yes"},
-    {"OrderId": "20", "CustomerId": "4", "PaymentOptionId": "2", "Paid": "Yes"},
+    {"OrderId": "20", "CustomerId": "4", "PaymentOptionId": "2", "Paid": "Yes"}
 
   ]
 }
